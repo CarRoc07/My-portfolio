@@ -96,12 +96,12 @@ const slideAndBounce3 = keyframes`
 
 const translateDivider = keyframes`
   0%, 100% {
-    top: calc(38% - 1.5px);
+    top: calc(30% - 1.5px);
     left: 10px;
     transform: translateX(0);
   }
   50% {
-    top: calc(38% - 1.5px);
+    top: calc(30% - 1.5px);
     left: calc(100% - 210px);
     transform: translateX(0);
   }

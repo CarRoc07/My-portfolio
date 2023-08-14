@@ -34,9 +34,11 @@ const ProjectContainer = styled.div`
 const ImgProject = styled.img`
     display: block;
     width: 100%;
+    height: 230px;
     `
 
 const ContainerDescProject = styled.div`
+    width: 90%;
     padding: 10px 10px;
     `
 
@@ -79,6 +81,28 @@ const Projects = () => {
                     <ContainerInfoCode>
                         <a href="https://github.com/CarRoc07" target="_blank" rel="noreferrer"><ImgProfileGithub src="/perfil.jpg" alt="IMG Profile"/></a> 
                         <a href="https://github.com/CarRoc07/TaTeTi" target="_blank" rel="noreferrer" style={{color: "#6366f1"}}>Code</a>
+                    </ContainerInfoCode>
+                </ProjectContainer>
+                <ProjectContainer>
+                    <ImgProject src="/Portfolio.PNG" alt="IMG Profile" />
+                    <ContainerDescProject>
+                        <h3>Portfolio</h3>
+                        <p>Explorá el codigo de esté portfolio!</p>
+                    </ContainerDescProject>
+                    <ContainerInfoCode>
+                        <a href="https://github.com/CarRoc07" target="_blank" rel="noreferrer"><ImgProfileGithub src="/perfil.jpg" alt="IMG Profile"/></a> 
+                        <a href="https://github.com/CarRoc07/My-portfolio" target="_blank" rel="noreferrer" style={{color: "#6366f1"}}>Code</a>
+                    </ContainerInfoCode>
+                </ProjectContainer>
+                <ProjectContainer>
+                    <ImgProject src="/generator.PNG" alt="IMG Profile" />
+                    <ContainerDescProject>
+                        <h3>Password generator</h3>
+                        <p>Utilizá esta app para generar tus passwords más seguras!</p>
+                    </ContainerDescProject>
+                    <ContainerInfoCode>
+                        <a href="https://github.com/CarRoc07" target="_blank" rel="noreferrer"><ImgProfileGithub src="/perfil.jpg" alt="IMG Profile"/></a> 
+                        <a href="https://github.com/CarRoc07/Password-generator" target="_blank" rel="noreferrer" style={{color: "#6366f1"}}>Code</a>
                     </ContainerInfoCode>
                 </ProjectContainer>
             </ContainerGrid>
